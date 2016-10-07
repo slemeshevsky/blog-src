@@ -183,7 +183,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'ФПМИ БГУ - кафедра ММУ - 3 курс'
+project = u'Спецкурс'
 copyright = u'2016, С.В. Лемешевский'
 author = u'С.В. Лемешевский'
 
@@ -251,7 +251,11 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'github_button': True,
+	'github_user': 'slemeshevsky',
+	'github_repo': 'blog-src',
+    'github_button': False,
+	'description': u'Блог cпецкурса на 3 курсе ФПМИ БГУ',
+	'logo': 'python-powered.png'
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -259,7 +263,7 @@ html_theme_path = [alabaster.get_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = u'Спецкурс - '+project
+html_title = project
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -271,7 +275,7 @@ html_title = u'Спецкурс - '+project
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-#html_favicon = None
+html_favicon = 'applications-python.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
