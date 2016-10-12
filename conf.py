@@ -22,13 +22,13 @@ blog_title = u'Python Blog'
 
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
-blog_baseurl = u'True'
+blog_baseurl = "http://slemeshevsky.github.io"
 
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
 #blog_archive_titles = False
 
-# github_pages = 'slemeshevsky'
+github_pages = 'slemeshevsky'
 
 # -- Blog Authors, Languages, and Locations -----------------------------------
 

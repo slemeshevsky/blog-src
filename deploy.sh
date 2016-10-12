@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ablog deploy -p ../slemeshevsky.github.io
+ablog deploy -p ../slemeshevsky.github.io/
