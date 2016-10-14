@@ -11,6 +11,7 @@ import os
 import sys
 import ablog
 import alabaster
+import sphinx_fontawesome
 
 # -- General ABlog Options ----------------------------------------------------
 
@@ -27,8 +28,8 @@ blog_baseurl = "http://slemeshevsky.github.io"
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
 #blog_archive_titles = False
-
 github_pages = 'slemeshevsky'
+ablog_website = '../slemeshevsky.github.io'
 
 # -- Blog Authors, Languages, and Locations -----------------------------------
 
@@ -168,6 +169,7 @@ extensions = [
     'sphinx.ext.todo',
     'alabaster',
     'ablog',
+	'sphinx_fontawesome',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -296,7 +298,7 @@ html_static_path = ['_static']
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+#html_sidebars = {['references.html']}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
@@ -312,7 +314,7 @@ html_static_path = ['_static']
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #html_show_sphinx = True
