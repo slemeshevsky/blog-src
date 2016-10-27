@@ -146,7 +146,7 @@ fontawesome_link_cdn = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/f
 
 # You can enable Disqus_ by setting ``disqus_shortname`` variable.
 # Disqus_ short name for the blog.
-#disqus_shortname = None
+disqus_shortname = 'fpmi-special-cource'
 
 # Choose to disqus pages that are not posts, default is ``False``.
 #disqus_pages = False
