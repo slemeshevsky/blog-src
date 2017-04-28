@@ -170,7 +170,6 @@ extensions = [
     'alabaster',
     'ablog',
 	'sphinx_fontawesome',
-	'sphinxcontrib.exceltable',
 	'sphinxcontrib.email',
 ]
 
